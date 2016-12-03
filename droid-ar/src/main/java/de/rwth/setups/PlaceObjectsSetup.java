@@ -1,30 +1,30 @@
 package de.rwth.setups;
 
-import geo.GeoObj;
-import gl.Color;
-import gl.CustomGLSurfaceView;
-import gl.GL1Renderer;
-import gl.GLCamera;
-import gl.GLFactory;
-import gl.scenegraph.MeshComponent;
-import gui.GuiSetup;
-import system.ErrorHandler;
-import system.EventManager;
-import system.Setup;
-import util.Vec;
-import util.Wrapper;
-import worldData.Obj;
-import worldData.SystemUpdater;
-import worldData.World;
-import actions.Action;
-import actions.ActionBufferedCameraAR;
-import actions.ActionCalcRelativePos;
-import actions.ActionMoveCameraBuffered;
-import actions.ActionPlaceObject;
-import actions.ActionRotateCameraBuffered;
+import droidar.geo.GeoObj;
+import droidar.gl.Color;
+import droidar.gl.CustomGLSurfaceView;
+import droidar.gl.GL1Renderer;
+import droidar.gl.GLCamera;
+import droidar.gl.GLFactory;
+import droidar.gl.scenegraph.MeshComponent;
+import droidar.gui.GuiSetup;
+import droidar.system.ErrorHandler;
+import droidar.system.EventManager;
+import droidar.system.Setup;
+import droidar.util.Vec;
+import droidar.util.Wrapper;
+import droidar.worldData.Obj;
+import droidar.worldData.SystemUpdater;
+import droidar.worldData.World;
+import droidar.actions.Action;
+import droidar.actions.ActionBufferedCameraAR;
+import droidar.actions.ActionCalcRelativePos;
+import droidar.actions.ActionMoveCameraBuffered;
+import droidar.actions.ActionPlaceObject;
+import droidar.actions.ActionRotateCameraBuffered;
 import android.app.Activity;
 
-import commands.Command;
+import droidar.commands.Command;
 
 public class PlaceObjectsSetup extends Setup {
 

@@ -1,13 +1,13 @@
 package de.rwth.setups;
 
-import gl.Renderable;
+import droidar.gl.Renderable;
 
 import javax.microedition.khronos.opengles.GL10;
 
-import util.Calculus;
-import worldData.RenderableEntity;
-import worldData.Updateable;
-import worldData.Visitor;
+import droidar.util.Calculus;
+import droidar.worldData.RenderableEntity;
+import droidar.worldData.Updateable;
+import droidar.worldData.Visitor;
 import android.util.Log;
 
 public class TimeModifier implements RenderableEntity {

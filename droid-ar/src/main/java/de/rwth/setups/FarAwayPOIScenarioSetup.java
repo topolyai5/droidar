@@ -1,20 +1,20 @@
 package de.rwth.setups;
 
-import geo.GeoObj;
-import gl.GL1Renderer;
-import gl.GLFactory;
-import gui.GuiSetup;
-import gui.RadarView;
-import system.DefaultARSetup;
-import util.Vec;
-import worldData.SystemUpdater;
-import worldData.World;
+import droidar.geo.GeoObj;
+import droidar.gl.GL1Renderer;
+import droidar.gl.GLFactory;
+import droidar.gui.GuiSetup;
+import droidar.gui.RadarView;
+import droidar.system.DefaultARSetup;
+import droidar.util.Vec;
+import droidar.worldData.SystemUpdater;
+import droidar.worldData.World;
 import android.app.Activity;
 import android.util.Log;
 
-import commands.Command;
-import commands.ui.CommandShowToast;
-import components.SimpleTooFarAwayComp;
+import droidar.commands.Command;
+import droidar.commands.ui.CommandShowToast;
+import droidar.components.SimpleTooFarAwayComp;
 
 public class FarAwayPOIScenarioSetup extends DefaultARSetup {
 

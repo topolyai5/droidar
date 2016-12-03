@@ -1,14 +1,14 @@
 package de.rwth.setups;
 
-import gl.GL1Renderer;
-import gl.GLFactory;
-import gui.InfoScreenSettings;
-import system.DefaultARSetup;
-import system.ErrorHandler;
-import util.Vec;
-import worldData.AbstractObj;
-import worldData.RenderQuadList;
-import worldData.World;
+import droidar.gl.GL1Renderer;
+import droidar.gl.GLFactory;
+import droidar.gui.InfoScreenSettings;
+import droidar.system.DefaultARSetup;
+import droidar.system.ErrorHandler;
+import droidar.util.Vec;
+import droidar.worldData.AbstractObj;
+import droidar.worldData.RenderQuadList;
+import droidar.worldData.World;
 
 public class LargeWorldsSetup extends DefaultARSetup {
 

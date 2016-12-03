@@ -1,35 +1,35 @@
 package de.rwth.setups;
 
-import geo.GeoObj;
-import gl.Color;
-import gl.CustomGLSurfaceView;
-import gl.GL1Renderer;
-import gl.GLCamera;
-import gl.GLFactory;
-import gl.animations.AnimationRotate;
-import gl.scenegraph.MeshComponent;
-import gl.scenegraph.Shape;
-import gui.GuiSetup;
-import system.ErrorHandler;
-import system.EventManager;
-import system.Setup;
-import util.Vec;
-import worldData.SystemUpdater;
-import worldData.World;
-import actions.Action;
-import actions.ActionBufferedCameraAR;
-import actions.ActionMoveCameraBuffered;
-import actions.ActionRotateCameraBuffered;
-import actions.ActionRotateCameraBuffered3;
-import actions.ActionRotateCameraBuffered4;
-import actions.ActionRotateCameraBufferedDebug;
-import actions.ActionRotateCameraBufferedDirect;
-import actions.ActionRotateCameraUnbuffered;
-import actions.ActionRotateCameraUnbuffered2;
-import actions.ActionUseCameraAngles2;
+import droidar.geo.GeoObj;
+import droidar.gl.Color;
+import droidar.gl.CustomGLSurfaceView;
+import droidar.gl.GL1Renderer;
+import droidar.gl.GLCamera;
+import droidar.gl.GLFactory;
+import droidar.gl.animations.AnimationRotate;
+import droidar.gl.scenegraph.MeshComponent;
+import droidar.gl.scenegraph.Shape;
+import droidar.gui.GuiSetup;
+import droidar.system.ErrorHandler;
+import droidar.system.EventManager;
+import droidar.system.Setup;
+import droidar.util.Vec;
+import droidar.worldData.SystemUpdater;
+import droidar.worldData.World;
+import droidar.actions.Action;
+import droidar.actions.ActionBufferedCameraAR;
+import droidar.actions.ActionMoveCameraBuffered;
+import droidar.actions.ActionRotateCameraBuffered;
+import droidar.actions.ActionRotateCameraBuffered3;
+import droidar.actions.ActionRotateCameraBuffered4;
+import droidar.actions.ActionRotateCameraBufferedDebug;
+import droidar.actions.ActionRotateCameraBufferedDirect;
+import droidar.actions.ActionRotateCameraUnbuffered;
+import droidar.actions.ActionRotateCameraUnbuffered2;
+import droidar.actions.ActionUseCameraAngles2;
 import android.app.Activity;
 
-import commands.Command;
+import droidar.commands.Command;
 
 public class SensorTestSetup extends Setup {
 
@@ -50,8 +50,8 @@ public class SensorTestSetup extends Setup {
 				"Error in DroidAR App");
 
 		/*
-		 * the following are just example rotate actions, take a look at the
-		 * implementation to see how to create own CameraBuffered actions
+		 * the following are just example rotate droidar.actions, take a look at the
+		 * implementation to see how to create own CameraBuffered droidar.actions
 		 */
 
 		camera = new GLCamera();

@@ -1,37 +1,37 @@
 package de.rwth.setups;
 
-import geo.Edge;
-import geo.GeoGraph;
-import geo.GeoObj;
-import gl.Color;
-import gl.CustomGLSurfaceView;
-import gl.GL1Renderer;
-import gl.GLCamera;
-import gl.GLFactory;
-import gl.animations.AnimationColorBounce;
-import gl.animations.AnimationPulse;
-import gl.scenegraph.MeshComponent;
-import gui.GuiSetup;
-import gui.MetaInfos;
-import system.ErrorHandler;
-import system.EventManager;
-import system.Setup;
-import util.EfficientList;
-import util.EfficientListQualified;
-import util.Vec;
-import worldData.SystemUpdater;
-import worldData.World;
-import actions.Action;
-import actions.ActionBufferedCameraAR;
-import actions.ActionCalcRelativePos;
-import actions.ActionMoveCameraBuffered;
-import actions.ActionRotateCameraBuffered;
+import droidar.geo.Edge;
+import droidar.geo.GeoGraph;
+import droidar.geo.GeoObj;
+import droidar.gl.Color;
+import droidar.gl.CustomGLSurfaceView;
+import droidar.gl.GL1Renderer;
+import droidar.gl.GLCamera;
+import droidar.gl.GLFactory;
+import droidar.gl.animations.AnimationColorBounce;
+import droidar.gl.animations.AnimationPulse;
+import droidar.gl.scenegraph.MeshComponent;
+import droidar.gui.GuiSetup;
+import droidar.gui.MetaInfos;
+import droidar.system.ErrorHandler;
+import droidar.system.EventManager;
+import droidar.system.Setup;
+import droidar.util.EfficientList;
+import droidar.util.EfficientListQualified;
+import droidar.util.Vec;
+import droidar.worldData.SystemUpdater;
+import droidar.worldData.World;
+import droidar.actions.Action;
+import droidar.actions.ActionBufferedCameraAR;
+import droidar.actions.ActionCalcRelativePos;
+import droidar.actions.ActionMoveCameraBuffered;
+import droidar.actions.ActionRotateCameraBuffered;
 import android.app.Activity;
 import android.util.Log;
 import android.widget.EditText;
 
-import commands.Command;
-import commands.ui.CommandShowEditScreen;
+import droidar.commands.Command;
+import droidar.commands.ui.CommandShowEditScreen;
 
 public class GraphCreationSetup extends Setup {
 

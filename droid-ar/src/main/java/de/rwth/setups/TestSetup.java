@@ -1,12 +1,12 @@
 package de.rwth.setups;
 
-import geo.GeoObj;
-import gl.GL1Renderer;
-import gl.GLFactory;
-import gl.scenegraph.Shape;
-import system.DefaultARSetup;
-import util.Vec;
-import worldData.World;
+import droidar.geo.GeoObj;
+import droidar.gl.GL1Renderer;
+import droidar.gl.GLFactory;
+import droidar.gl.scenegraph.Shape;
+import droidar.system.DefaultARSetup;
+import droidar.util.Vec;
+import droidar.worldData.World;
 
 public class TestSetup extends DefaultARSetup {
 

@@ -1,30 +1,31 @@
 package de.rwth.setups;
 
-import geo.GeoObj;
-import gl.Color;
-import gl.CustomGLSurfaceView;
-import gl.GL1Renderer;
-import gl.GLCamera;
-import gl.GLFactory;
-import gl.scenegraph.MeshComponent;
-import gui.GuiSetup;
-import system.ErrorHandler;
-import system.EventManager;
-import system.Setup;
-import util.Vec;
-import worldData.MoveComp;
-import worldData.Obj;
-import worldData.SystemUpdater;
-import worldData.World;
-import actions.Action;
-import actions.ActionBufferedCameraAR;
-import actions.ActionCalcRelativePos;
-import actions.ActionMoveCameraBuffered;
-import actions.ActionRotateCameraBuffered;
+import droidar.geo.GeoObj;
+import droidar.gl.Color;
+import droidar.gl.CustomGLSurfaceView;
+import droidar.gl.GL1Renderer;
+import droidar.gl.GLCamera;
+import droidar.gl.GLFactory;
+import droidar.gl.scenegraph.MeshComponent;
+import droidar.gui.GuiSetup;
+import droidar.system.ErrorHandler;
+import droidar.system.EventManager;
+import droidar.system.Setup;
+import droidar.util.Vec;
+import droidar.worldData.MoveComp;
+import droidar.worldData.Obj;
+import droidar.worldData.SystemUpdater;
+import droidar.worldData.Updateable;
+import droidar.worldData.World;
+import droidar.actions.Action;
+import droidar.actions.ActionBufferedCameraAR;
+import droidar.actions.ActionCalcRelativePos;
+import droidar.actions.ActionMoveCameraBuffered;
+import droidar.actions.ActionRotateCameraBuffered;
 import android.app.Activity;
 
-import commands.Command;
-import components.ViewPosCalcerComp;
+import droidar.commands.Command;
+import droidar.components.ViewPosCalcerComp;
 
 public class PlaceObjectsSetupTwo extends Setup {
 
@@ -44,7 +45,7 @@ public class PlaceObjectsSetupTwo extends Setup {
 		world = new World(camera);
 		viewPosCalcer = new ViewPosCalcerComp(camera, 150, 0.1f) {
 			@Override
-			public void onPositionUpdate(worldData.Updateable parent,
+			public void onPositionUpdate(Updateable parent,
 					Vec targetVec) {
 				if (parent instanceof Obj) {
 					Obj obj = (Obj) parent;

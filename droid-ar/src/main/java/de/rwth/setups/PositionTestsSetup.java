@@ -1,28 +1,28 @@
 package de.rwth.setups;
 
-import geo.GeoObj;
-import gl.Color;
-import gl.CustomGLSurfaceView;
-import gl.GL1Renderer;
-import gl.GLCamera;
-import gl.GLFactory;
-import gl.scenegraph.MeshComponent;
-import gui.GuiSetup;
-import system.EventManager;
-import system.Setup;
-import util.Vec;
-import worldData.SystemUpdater;
-import worldData.World;
-import actions.ActionCalcRelativePos;
-import actions.ActionMoveCameraBuffered;
-import actions.ActionRotateCameraBuffered;
+import droidar.geo.GeoObj;
+import droidar.gl.Color;
+import droidar.gl.CustomGLSurfaceView;
+import droidar.gl.GL1Renderer;
+import droidar.gl.GLCamera;
+import droidar.gl.GLFactory;
+import droidar.gl.scenegraph.MeshComponent;
+import droidar.gui.GuiSetup;
+import droidar.system.EventManager;
+import droidar.system.Setup;
+import droidar.util.Vec;
+import droidar.worldData.SystemUpdater;
+import droidar.worldData.World;
+import droidar.actions.ActionCalcRelativePos;
+import droidar.actions.ActionMoveCameraBuffered;
+import droidar.actions.ActionRotateCameraBuffered;
 import android.R;
 import android.app.Activity;
 
-import commands.Command;
-import commands.DebugCommandPositionEvent;
-import commands.ui.CommandInUiThread;
-import commands.ui.CommandShowToast;
+import droidar.commands.Command;
+import droidar.commands.DebugCommandPositionEvent;
+import droidar.commands.ui.CommandInUiThread;
+import droidar.commands.ui.CommandShowToast;
 
 public class PositionTestsSetup extends Setup {
 

@@ -1,17 +1,17 @@
 package de.rwth.setups;
 
-import geo.DefaultNodeEdgeListener;
-import geo.GeoGraph;
-import geo.GeoObj;
-import gl.CustomGLSurfaceView;
-import gl.GL1Renderer;
-import gl.GLFactory;
-import system.DefaultARSetup;
-import system.EventManager;
-import util.EfficientList;
-import util.Vec;
-import worldData.SystemUpdater;
-import worldData.World;
+import droidar.geo.DefaultNodeEdgeListener;
+import droidar.geo.GeoGraph;
+import droidar.geo.GeoObj;
+import droidar.gl.CustomGLSurfaceView;
+import droidar.gl.GL1Renderer;
+import droidar.gl.GLFactory;
+import droidar.system.DefaultARSetup;
+import droidar.system.EventManager;
+import droidar.util.EfficientList;
+import droidar.util.Vec;
+import droidar.worldData.SystemUpdater;
+import droidar.worldData.World;
 
 public class GraphMovementTestSetup extends DefaultARSetup {
 

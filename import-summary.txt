@@ -20,8 +20,8 @@ Eclipse projects. Here's how the projects were restructured:
 * AndroidManifest.xml => app/src/main/AndroidManifest.xml
 * res/ => app/src/main/res/
 * src/ => app/src/main/java/
-* src/actions/actionExample.uxf => app/src/main/resources/actions/actionExample.uxf
-* src/commands/commands.uxf => app/src/main/resources/commands/commands.uxf
+* src/droidar.actions/actionExample.uxf => app/src/main/resources/droidar.actions/actionExample.uxf
+* src/droidar.commands/droidar.commands.uxf => app/src/main/resources/droidar.commands/droidar.commands.uxf
 * src/gamelogic/concept.uxf => app/src/main/resources/gamelogic/concept.uxf
 * src/geo/geo.uxf => app/src/main/resources/geo/geo.uxf
 * src/geo/geoObjWithMeshGroup.uxf => app/src/main/resources/geo/geoObjWithMeshGroup.uxf

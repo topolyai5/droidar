@@ -1,17 +1,17 @@
 package de.rwth;
 
-import system.ArActivity;
-import system.ErrorHandler;
-import system.EventManager;
-import system.Setup;
-import tests.AndroidDeviceOnlyTests;
-import tests.EfficientListTests;
-import tests.GameLogicTests;
-import tests.GeoTests;
-import tests.GlTests;
-import tests.IOTests;
-import tests.SystemTests;
-import tests.WorldTests;
+import droidar.system.ArActivity;
+import droidar.system.ErrorHandler;
+import droidar.system.EventManager;
+import droidar.system.Setup;
+import droidar.tests.EfficientListTests;
+import droidar.tests.AndroidDeviceOnlyTests;
+import droidar.tests.GameLogicTests;
+import droidar.tests.GeoTests;
+import droidar.tests.GlTests;
+import droidar.tests.IOTests;
+import droidar.tests.SystemTests;
+import droidar.tests.WorldTests;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,7 +19,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import commands.ui.CommandShowToast;
+import droidar.commands.ui.CommandShowToast;
 
 import de.rwth.setups.CollectItemsSetup;
 import de.rwth.setups.DebugSetup;
@@ -127,7 +127,7 @@ public class TechDemoLauncher extends Activity {
 		// execute all tests defined in the ARTestSuite:
 		try {
 
-			system.EventManager.getInstance().registerListeners(this, true);
+			EventManager.getInstance().registerListeners(this, true);
 
 			// new ThreadTest().run();
 			// new MemoryAllocationTests().run();

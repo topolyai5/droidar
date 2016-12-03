@@ -1,33 +1,33 @@
 package de.rwth.setups;
 
-import gl.Color;
-import gl.CustomGLSurfaceView;
-import gl.GL1Renderer;
-import gl.GLFactory;
-import gl.LightSource;
-import gl.animations.AnimationRotate;
-import gl.scenegraph.MeshComponent;
-import gl.scenegraph.Shape;
-import gui.GuiSetup;
+import droidar.gl.Color;
+import droidar.gl.CustomGLSurfaceView;
+import droidar.gl.GL1Renderer;
+import droidar.gl.GLFactory;
+import droidar.gl.LightSource;
+import droidar.gl.animations.AnimationRotate;
+import droidar.gl.scenegraph.MeshComponent;
+import droidar.gl.scenegraph.Shape;
+import droidar.gui.GuiSetup;
 
 import java.util.ArrayList;
 
 import javax.microedition.khronos.opengles.GL10;
 
-import system.DefaultARSetup;
-import system.EventManager;
-import util.Vec;
-import util.Wrapper;
-import worldData.Entity;
-import worldData.MoveComp;
-import worldData.Obj;
-import worldData.SystemUpdater;
-import worldData.World;
-import actions.ActionMoveObject;
+import droidar.system.DefaultARSetup;
+import droidar.system.EventManager;
+import droidar.util.Vec;
+import droidar.util.Wrapper;
+import droidar.worldData.Entity;
+import droidar.worldData.MoveComp;
+import droidar.worldData.Obj;
+import droidar.worldData.SystemUpdater;
+import droidar.worldData.World;
+import droidar.actions.ActionMoveObject;
 import android.app.Activity;
 import android.util.Log;
 
-import commands.Command;
+import droidar.commands.Command;
 
 public class LightningSetup extends DefaultARSetup {
 

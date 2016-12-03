@@ -1,14 +1,14 @@
 package de.rwth.setups;
 
-import gamelogic.ActionThrowFireball;
-import gamelogic.GameParticipant;
-import gamelogic.Stat;
-import gl.GL1Renderer;
-import gl.GLFactory;
-import gui.GuiSetup;
-import system.DefaultARSetup;
-import worldData.SystemUpdater;
-import worldData.World;
+import droidar.gamelogic.ActionThrowFireball;
+import droidar.gamelogic.GameParticipant;
+import droidar.gamelogic.Stat;
+import droidar.gl.GL1Renderer;
+import droidar.gl.GLFactory;
+import droidar.gui.GuiSetup;
+import droidar.system.DefaultARSetup;
+import droidar.worldData.SystemUpdater;
+import droidar.worldData.World;
 import android.app.Activity;
 import de.rwth.R;
 

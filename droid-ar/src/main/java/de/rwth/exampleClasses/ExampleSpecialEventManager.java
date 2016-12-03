@@ -1,6 +1,6 @@
 package de.rwth.exampleClasses;
 
-import system.EventManager;
+import droidar.system.EventManager;
 import android.app.Activity;
 import android.location.Location;
 

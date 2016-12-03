@@ -1,19 +1,19 @@
 package de.rwth.setups;
 
-import gl.GL1Renderer;
-import gl.GLFactory;
-import gl.GLText;
-import gl.scenegraph.MeshComponent;
-import gui.GuiSetup;
+import droidar.gl.GL1Renderer;
+import droidar.gl.GLFactory;
+import droidar.gl.GLText;
+import droidar.gl.scenegraph.MeshComponent;
+import droidar.gui.GuiSetup;
 
 import java.util.HashMap;
 
-import system.DefaultARSetup;
-import worldData.Obj;
-import worldData.World;
+import droidar.system.DefaultARSetup;
+import droidar.worldData.Obj;
+import droidar.worldData.World;
 import android.app.Activity;
 
-import commands.Command;
+import droidar.commands.Command;
 
 public class FastChangingTextSetup extends DefaultARSetup {
 
