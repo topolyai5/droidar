@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/topi/Documents/projects/droidar/droid-ar/src/main/assets"/><source path="/home/topi/Documents/projects/droidar/droid-ar/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/home/topi/Documents/projects/droidar/droid-ar/src/release/assets"/></dataSet></merger>
